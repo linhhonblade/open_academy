@@ -6,7 +6,9 @@
     'summary': 'Academy',
     'sequence': 10,
     'depends': ['base'],
-    'data': [],
+    'data': [
+        'security/ir.model.access.csv',
+        'views/course_views.xml'],
     'demo': [
     ],
     'installable': True,
