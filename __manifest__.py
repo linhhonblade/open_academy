@@ -8,7 +8,10 @@
     'depends': ['base'],
     'data': [
         'security/ir.model.access.csv',
-        'views/course_views.xml'],
+        'views/course_views.xml',
+        'reports/report_course.xml',
+        'views/course_report.xml',
+    ],
     'demo': [
     ],
     'installable': True,
